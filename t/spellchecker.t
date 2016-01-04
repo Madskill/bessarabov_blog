@@ -15,11 +15,13 @@ use Text::Markdown qw(markdown);
 my @IGNORE = qw(
     3rd
     AngularJS
+    Ansible
     Appleton
     Beatty
     Berczuk
     Bezos
     Brin
+    CHANGEME
     CPAN
     CSRF
     Cem
@@ -44,6 +46,7 @@ my @IGNORE = qw(
     Nagios
     Nguyen
     PSGI
+    Playbook
     Pratt
     Satya
     SemVer
@@ -53,26 +56,43 @@ my @IGNORE = qw(
     YAPC
     YNAB
     Zabbix
+    ansible
+    bessarabov
     boot2docker
     cal
+    com
+    github
     jenkins
+    letsencrypt
     linux
     nginx
+    playbook
     printf
+    projecta
+    projectb
+    readthedocs
     reddit
+    ru
     screencast
     sprintf
+    ssl
+    ssls
     subj
+    tmp
     Макконнелла
     Масяня
     Мда
     ПДД
     баг
     бекап
+    бекапить
     гитхаб
+    докерный
+    докерных
     нажимабельна
     наэксперементировали
     однострочник
+    сгенерит
     суперское
     файлик
 );
@@ -164,16 +184,24 @@ sub check_file {
         fail('Speller found errors in file "' . $file_name . '"');
         foreach my $element (@{$check_result}) {
             note(
-                sprintf(
-                    'Unknown word: "%s". (Suggestions: "%s")',
-                    $element->{word},
-                    join('", "', @{$element->{s}}),
-                )
+                get_text( $element->{word}, $element->{s} )
             );
         }
     }
 
     return 1;
+}
+
+sub get_text {
+    my ($word, $suggestions) = @_;
+
+    my $text = sprintf 'Unknown word: "%s"', $word;
+
+    if (@{$suggestions}) {
+        $text .= sprintf ' (Suggestions: "%s")', join('", "', @{$suggestions});
+    }
+
+    return $text;
 }
 
 sub main_in_test {
