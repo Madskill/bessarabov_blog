@@ -40,6 +40,18 @@ date_time: 2014-07-20 14:48:40 MSK
 Отключается интернет практически мнгновенно (меньше секунды), но включается
 он не очень быстро — у меня проходит секунд 10 пока WiFi подключится.
 
+А для того чтобы можно было включать-выключать интернет из консоли я написал
+два скрипта (решение нашел на [http://apple.stackexchange.com/][apple]):
+
+offline:
+
+    sudo networksetup -switchtolocation "No network"
+
+online:
+
+    sudo networksetup -switchtolocation "Internet"
+
  [no_clock]: https://ivan.bessarabov.ru/blog/show-time
  [menu]: https://upload.bessarabov.ru/bessarabov/n0GlGj2_VkrdHfHrfh_2CY2dwu4.png
  [network]: https://upload.bessarabov.ru/bessarabov/cqEygi9Yk2REN12G-n-MsSaZOLg.png
+ [apple]: https://apple.stackexchange.com/questions/38771/change-network-location-from-terminal
