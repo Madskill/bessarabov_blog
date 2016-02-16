@@ -42,15 +42,22 @@ Perl я создаю JSON c тремя пробелами, комичу этот
 
     use JSON::PP qw();
 
-    my $json_coder = JSON::PP
-        ->new
-        ->pretty
-        ->canonical
-        ->indent_length(4)
-        ;
+    sub to_pretty_json {
+        my ($data) = @_;
 
-    my $pretty_json = $json_coder->encode($data);
-    say $pretty_json;
+        my $json_coder = JSON::PP
+            ->new
+            ->pretty
+            ->canonical
+            ->indent_length(4)
+            ;
+
+        my $pretty_json = $json_coder->encode($data);
+
+        return $pretty_json;
+    }
+
+    say to_pretty_json $data;
 
 Вот [полный текст скрипта-примера](https://gist.github.com/bessarabov/c18a7aa18c39d27cfde4).
 
