@@ -27,36 +27,45 @@ my @IGNORE = qw(
     Cem
     Construx
     Cumberbatch
+    DBIx
     Downey
     EOM
     Elon
+    Emacs
     Esc
     Falk
     FileBase
     GitHub
     Goddard
     Hemsworth
+    Jenkins
     Kaner
     Karl
+    Komodo
     Larman
     McConnell
+    Mojolicious
     Monit
     Munin
     Nadella
     Nagios
     Nguyen
+    NoSQL
+    ORM
     PSGI
     Playbook
     Pratt
     Satya
     SemVer
     TODO
+    Teamcity
     UML
     Wiegers
     YAPC
     YNAB
     Zabbix
     ansible
+    backend
     bessarabov
     boot2docker
     cal
@@ -67,6 +76,7 @@ my @IGNORE = qw(
     linux
     nginx
     playbook
+    pm
     printf
     projecta
     projectb
@@ -79,6 +89,8 @@ my @IGNORE = qw(
     ssls
     subj
     tmp
+    Автодополнение
+    Дебаггер
     Макконнелла
     Масяня
     Мда
@@ -86,12 +98,20 @@ my @IGNORE = qw(
     баг
     бекап
     бекапить
+    бекенд
+    версионирования
     гитхаб
+    дебаггер
+    дебаггера
+    дебаггеру
     докерный
     докерных
+    логирования
     нажимабельна
     наэксперементировали
     однострочник
+    однострочники
+    рефакторинга
     сгенерит
     суперское
     файлик
