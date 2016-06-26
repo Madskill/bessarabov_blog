@@ -14,12 +14,16 @@ use Text::Markdown qw(markdown);
 
 my @IGNORE = qw(
     3rd
+    AVP
+    AVPR
+    Alien³
     AngularJS
     Ansible
     Appleton
     Beatty
     Berczuk
     Bezos
+    Blomkamp
     Brin
     CHANGEME
     CPAN
@@ -35,6 +39,7 @@ my @IGNORE = qw(
     Esc
     Falk
     FileBase
+    Giger
     GitHub
     Goddard
     Hemsworth
@@ -49,20 +54,26 @@ my @IGNORE = qw(
     Munin
     Nadella
     Nagios
+    Neill
     Nguyen
     NoSQL
+    Nostromo
     ORM
     PSGI
     Playbook
     Pratt
+    Ridley
     Satya
     SemVer
     TODO
     Teamcity
     UML
+    Untitled
+    Weyland
     Wiegers
     YAPC
     YNAB
+    Yutani
     Zabbix
     ansible
     backend
@@ -71,6 +82,7 @@ my @IGNORE = qw(
     cal
     com
     github
+    imdb
     jenkins
     letsencrypt
     linux
@@ -89,12 +101,15 @@ my @IGNORE = qw(
     ssls
     subj
     tmp
+    vs
     Автодополнение
+    Бломкампа
     Дебаггер
     Макконнелла
     Масяня
     Мда
     ПДД
+    Харконнен
     баг
     бекап
     бекапить
@@ -106,6 +121,8 @@ my @IGNORE = qw(
     дебаггеру
     докерный
     докерных
+    инфографики
+    ксеноморфы
     логирования
     нажимабельна
     наэксперементировали
