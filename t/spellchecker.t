@@ -14,11 +14,13 @@ use Text::Markdown qw(markdown);
 
 my @IGNORE = qw(
     3rd
+    ANSIColor
     AVP
     AVPR
     Alien³
     AngularJS
     Ansible
+    AnyEvent
     Appleton
     Beatty
     Berczuk
@@ -26,32 +28,63 @@ my @IGNORE = qw(
     Blomkamp
     Brin
     CHANGEME
+    CHI
     CPAN
     CSRF
     Cem
     Construx
+    Coro
     Cumberbatch
+    DBD
+    DBD
+    DBD
+    DBI
     DBIx
+    Dancer2
+    DateTime
+    Devel
+    Devel
+    Devel
+    Devel
+    Dist
     Downey
     EOM
     Elon
     Emacs
     Esc
     Falk
+    FatPacker
     FileBase
+    ForkManager
+    Getopt
     Giger
     GitHub
     Goddard
     Hemsworth
+    HiRes
+    IO
+    IO
+    Imager
     Jenkins
     Kaner
     Karl
+    Kensho
     Komodo
     Larman
+    LibXML
+    Log4perl
+    MCE
+    Marpa
     McConnell
+    Metacpan
+    Mojo
     Mojolicious
+    MongoDB
     Monit
+    Moops
+    MoreUtils
     Munin
+    NYTProf
     Nadella
     Nagios
     Neill
@@ -59,34 +92,63 @@ my @IGNORE = qw(
     NoSQL
     Nostromo
     ORM
+    POE
+    PPI
     PSGI
+    PathTools
+    Pg
+    Pg
+    Plack
     Playbook
     Pratt
+    R2
+    REPL
+    Redis
+    Regexp
+    Regexp
     Ridley
+    SQLite
     Satya
     SemVer
+    Sereal
+    Starman
     TODO
     Teamcity
     UML
+    Ubic
     Untitled
+    Utils
     Weyland
     Wiegers
+    XS
+    XS
+    Xslate
+    YAML
     YAPC
     YNAB
     Yutani
     Zabbix
+    Zilla
+    ack
     ansible
+    autodie
     backend
     bessarabov
     boot2docker
     cal
     com
+    cpanminus
     github
+    hdb
     imdb
     jenkins
     letsencrypt
+    libwww
     linux
+    metacpan
+    mysql
     nginx
+    perlbrew
     playbook
     pm
     printf
@@ -123,6 +185,8 @@ my @IGNORE = qw(
     докерных
     инфографики
     ксеноморфы
+    лайк
+    лайков
     логирования
     нажимабельна
     наэксперементировали
