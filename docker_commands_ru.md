@@ -35,11 +35,11 @@ date_time: 2014-10-19 01:22:45 MSK
     # Удалить образ ubuntu:latest (так же можно удалять используя IMAGE ID)
     docker rmi ubuntu
 
-    # Создать образ (в текущей папке должен находится файл Dockerfile)
+    # Создать образ (в текущей папке должен находиться файл Dockerfile)
     # Эта команда создаст образ bessarabov/sample_nginx с тегом latest
     docker build --tag bessarabov/sample_nginx .
 
-    # Создать новый тег на основе уще существующего образа
+    # Создать новый тег на основе уже существующего образа
     $ docker tag bessarabov/sample_nginx:latest 192.168.59.103:5000/bessarabov/sample_nginx:latest
     $ docker images
     REPOSITORY                                    TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
@@ -48,23 +48,22 @@ date_time: 2014-10-19 01:22:45 MSK
 
 ## Работа с контейнерами
 
-    # Запустить контенейр в интерактивном режиме
+    # Запустить контейнер в интерактивном режиме
     # (ключи -i -t можно объединить в -it)
     $ docker run -i -t ubuntu:14.04 /bin/bash
     root@b9ee3d48bf59:/#
 
-    # Получить список контенеров
-    # (если не указать ключ -a, то будет показаны только работающие контенеры)
+    # Получить список контейнеров
+    # (если не указать ключ -a, то будет показаны только работающие контейнеры)
     $ docker ps -a
     CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                     PORTS               NAMES
     7aacffdfb531        ubuntu:14.04        "/bin/bash"         3 seconds ago       Exited (0) 1 seconds ago                       silly_hopper
 
-    # Удалить контенер (можно удалить только остановленный контейнер).
+    # Удалить контейнер (можно удалить только остановленный контейнер).
     # Команде можно передать как CONTAINER ID, так и NAME
     docker rm 7aacffdfb531
 
-    # Запустить контейнер и автоматически удалить его после того как он
-    # остановится
+    # Запустить контейнер и автоматически удалить его после того как он остановится
     docker run --rm -it ubuntu:14.04 /bin/bash
 
     # Запустить контейнер и указать ему имя 'sample'. Если явно не указывать
@@ -75,19 +74,19 @@ date_time: 2014-10-19 01:22:45 MSK
     # машине соответствовал 80 порту в контейнере
     docker run --detach --publish 8000:80 --name sample bessarabov/sample_nginx
 
-    # Вот как выглядит инфа об этом контейнере:
+    # Вот как выглядит информация об этом контейнере:
     $ docker ps -a
     CONTAINER ID        IMAGE                            COMMAND                CREATED             STATUS              PORTS                  NAMES
     5124abdf830b        bessarabov/sample_nginx:latest   "/bin/sh -c 'nginx -   3 seconds ago       Up 2 seconds        0.0.0.0:8000->80/tcp   sample
 
-    # Ну и дальше с помощью `boot2docker ip` можно узать ip адрес хост
+    # Далее с помощью `boot2docker ip` можно узнать ip-адрес хост
     # машины и как-нибудь обратиться к ней:
     curl 192.168.59.103:8000
 
-    # Для того чтобы остановить контейнер
+    # Для того, чтобы остановить контейнер
     docker stop sample
 
-    # После того как контейнер остановлен его можно удать (и он больше не
+    # После того как контейнер остановлен его можно удалить (и он больше не
     # будет показываться в `docker ps -a`:
     docker rm sample
 
