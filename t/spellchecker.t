@@ -64,6 +64,8 @@ my @IGNORE = qw(
     HiRes
     IO
     IO
+    IPv4
+    IPv6
     Imager
     Jenkins
     Kaner
