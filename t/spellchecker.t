@@ -70,6 +70,7 @@ my @IGNORE = qw(
     Karl
     Kensho
     Komodo
+    LTS
     Larman
     LibXML
     Log4perl
@@ -163,6 +164,7 @@ my @IGNORE = qw(
     ssls
     subj
     tmp
+    ubuntu
     vs
     Автодополнение
     Бломкампа
@@ -192,6 +194,7 @@ my @IGNORE = qw(
     наэксперементировали
     однострочник
     однострочники
+    релизным
     рефакторинга
     сгенерит
     суперское
