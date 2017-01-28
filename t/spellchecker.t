@@ -52,6 +52,7 @@ my @IGNORE = qw(
     Elon
     Emacs
     Esc
+    FI
     Falk
     FatPacker
     FileBase
@@ -201,6 +202,7 @@ my @IGNORE = qw(
     сгенерит
     суперское
     файлик
+    хостятся
 );
 
 my %IGNORE_HASH = map { $_ => 1 } @IGNORE;
@@ -361,7 +363,6 @@ sub main_in_test {
             'perl_style_guide_ru.md',
             'perl_unicode_ru.md',
             'permitted_speed_ru.md',
-            'php_was_not_written_in_perl_ru.md',
             'python_oneliner_to_start_webserver_ru.md',
             'temporary_work_directory_ru.md',
             'the_magellanic_cloud_quotation_ru.md',
