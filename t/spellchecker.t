@@ -31,6 +31,7 @@ my @IGNORE = qw(
     CHI
     CPAN
     CSRF
+    Capitan
     Cem
     Construx
     Coro
@@ -130,6 +131,7 @@ my @IGNORE = qw(
     YAML
     YAPC
     YNAB
+    Yosemite
     Yutani
     Zabbix
     Zilla
@@ -149,6 +151,7 @@ my @IGNORE = qw(
     letsencrypt
     libwww
     linux
+    macOS
     metacpan
     mysql
     nginx
@@ -347,7 +350,6 @@ sub main_in_test {
             'how_to_run_swift_playground_ru.md',
             'hpmor_text_statistics_ru.md',
             'mac_os_internet_switch_on_off_ru.md',
-            'mac_os_perl_versions_ru.md',
             'macbook_keyboard_ru.md',
             'metacpan_likes_ru.md',
             'moscow_drivers_license_exam_map_ru.md',
