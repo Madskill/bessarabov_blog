@@ -106,12 +106,14 @@ my @IGNORE = qw(
     Plack
     Playbook
     Pratt
+    QR
     R2
     REPL
     Redis
     Regexp
     Regexp
     Ridley
+    SD
     SQLite
     Satya
     SemVer
@@ -127,6 +129,7 @@ my @IGNORE = qw(
     Wiegers
     XS
     XS
+    Xiaomi
     Xslate
     YAML
     YAPC
@@ -174,6 +177,7 @@ my @IGNORE = qw(
     vs
     Автодополнение
     Бломкампа
+    ГЛОНАСС
     Дебаггер
     Макконнелла
     Масяня
@@ -205,6 +209,7 @@ my @IGNORE = qw(
     сгенерит
     суперское
     файлик
+    фича
     хостятся
 );
 
