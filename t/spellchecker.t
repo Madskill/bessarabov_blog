@@ -159,6 +159,7 @@ my @IGNORE = qw(
     mysql
     nginx
     perlbrew
+    perldoc
     playbook
     pm
     printf
@@ -204,12 +205,17 @@ my @IGNORE = qw(
     наэксперементировали
     однострочник
     однострочники
+    плейсхолдер
+    плейсхолдера
+    плейсхолдере
+    плейсхолдеры
     релизным
     рефакторинга
     сгенерит
     суперское
     файлик
     фича
+    фичу
     хостятся
 );
 
@@ -365,7 +371,6 @@ sub main_in_test {
             'perl_library_moment_get_weekday_number_ru.md',
             'perl_oneliners_ru.md',
             'perl_pretty_print_json_ru.md',
-            'perl_printf_sprintf_ru.md',
             'perl_retry_module_ru.md',
             'perl_style_guide_ru.md',
             'perl_unicode_ru.md',
