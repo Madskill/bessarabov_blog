@@ -57,6 +57,7 @@ my @IGNORE = qw(
     Falk
     FatPacker
     FileBase
+    Fitzpatrick
     ForkManager
     Getopt
     Giger
@@ -74,13 +75,17 @@ my @IGNORE = qw(
     Karl
     Kensho
     Komodo
+    LLVM
     LTS
     Larman
+    Lattner
     LibXML
+    Linus
     Log4perl
     MCE
     Marpa
     McConnell
+    Memcached
     Metacpan
     Mojo
     Mojolicious
@@ -113,14 +118,18 @@ my @IGNORE = qw(
     Regexp
     Regexp
     Ridley
+    Riedel
     SD
     SQLite
+    SUSE
     Satya
     SemVer
     Sereal
     Starman
     TODO
     Teamcity
+    Tesla
+    Torvalds
     UML
     Ubic
     Untitled
@@ -154,6 +163,7 @@ my @IGNORE = qw(
     letsencrypt
     libwww
     linux
+    livejournal
     macOS
     metacpan
     mysql
@@ -180,6 +190,8 @@ my @IGNORE = qw(
     Бломкампа
     ГЛОНАСС
     Дебаггер
+    Линус
+    Линуса
     Макконнелла
     Масяня
     Мда
@@ -196,7 +208,9 @@ my @IGNORE = qw(
     дебаггеру
     докерный
     докерных
+    долбанутый
     инфографики
+    коммитов
     ксеноморфы
     лайк
     лайков
@@ -216,6 +230,7 @@ my @IGNORE = qw(
     файлик
     фича
     фичу
+    фреймворки
     хостятся
 );
 
