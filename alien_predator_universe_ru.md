@@ -14,7 +14,7 @@ date_time: 2016-06-26 15:14:15 MSK
 другие трофеи хищника](http://scifi.stackexchange.com/questions/6880/what-are-the-other-alien-skulls-in-the-predator-trophy-case)).
 
 Про это вселенную в интернете есть несколько разных вики. Вот огромный документ
-с [timeline всех событий](http://alienanthology.wikia.com/wiki/Alien_Universe_Timeline).
+с [хронологией всех событий](http://alienanthology.wikia.com/wiki/Alien_Universe_Timeline).
 
 Тут я собрал полный список фильмов из этой объеденной вселенной.
 
