@@ -147,8 +147,10 @@ my @IGNORE = qw(
     Yutani
     Zabbix
     Zilla
+    abc
     ack
     ansible
+    arr
     autodie
     backend
     bessarabov
@@ -156,6 +158,9 @@ my @IGNORE = qw(
     cal
     com
     cpanminus
+    def
+    diff
+    foreach
     github
     hdb
     imdb
@@ -175,6 +180,7 @@ my @IGNORE = qw(
     printf
     projecta
     projectb
+    qw
     readthedocs
     reddit
     ru
@@ -185,6 +191,9 @@ my @IGNORE = qw(
     subj
     tmp
     ubuntu
+    undef
+    unshift
+    usr
     vs
     Автодополнение
     Бломкампа
@@ -219,6 +228,7 @@ my @IGNORE = qw(
     нажимабельна
     наэксперементировали
     однострочник
+    однострочнике
     однострочники
     плейсхолдер
     плейсхолдера
@@ -229,7 +239,9 @@ my @IGNORE = qw(
     сгенерит
     суперское
     файлик
+    фич
     фича
+    фичей
     фичу
     фреймворки
     хостятся
