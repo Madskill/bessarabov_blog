@@ -1,6 +1,10 @@
 # Bessarabov's Perl Style Guide
 
-date_time: 2013-08-08 08:40:09 MSK
+```
+{
+    "date_time_msk" : "2013-08-08 08:40:09"
+}
+```
 
 Эпиграф — "Tim Toady Bicarbonate".
 

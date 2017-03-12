@@ -1,6 +1,10 @@
 # Первый подход к автоматизации получения https сертификатов через letsencrypt (docker + ansible)
 
-date_time: 2016-01-04 19:28:15 MSK
+```
+{
+    "date_time_msk" : "2016-01-04 19:28:15"
+}
+```
 
 Я считаю что [все сайты должны работать по https (и не работать по
 http)](https://ivan.bessarabov.ru/blog/why-every-site-should-use-https).

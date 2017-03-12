@@ -1,6 +1,10 @@
 # Как запустить Swift Playground
 
-date_time: 2014-08-02 18:13:58 MSK
+```
+{
+    "date_time_msk" : "2014-08-02 18:13:58"
+}
+```
 
 Решил тут поиграть со Swift Playground.
 

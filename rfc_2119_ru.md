@@ -1,6 +1,10 @@
 # RFC про фразы MUST, MUST NOT, RECOMMENDED, NOT RECOMMENDED, OPTIONAL
 
-date_time: 2015-11-11 22:52:11 MSK
+```
+{
+    "date_time_msk" : "2015-11-11 22:52:11"
+}
+```
 
 Во всяких интернетовских документах очень часто используются слова MUST,
 SHOULD, MAY и подобные. Например, в [спецификации протокола

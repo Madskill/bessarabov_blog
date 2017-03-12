@@ -1,6 +1,10 @@
 # AngularJS vs Template Toolkit
 
-date_time: 2014-05-24 20:47:38 MSK
+```
+{
+    "date_time_msk" : "2014-05-24 20:47:38"
+}
+```
 
 Читаю [tutorial про AngularJS][t]. Кроме всего прочего в AngularJS совершенно
 генильный шаблонизатор.

@@ -1,6 +1,10 @@
 # Однострочники в Perl
 
-date_time: 2014-08-13 18:44:12 MSK
+```
+{
+    "date_time_msk" : "2014-08-13 18:44:12"
+}
+```
 
 Изначально эта статья была опубликована в журнале [Pragmatic
 Perl](http://pragmaticperl.com/issues/18/pragmaticperl-18-однострочники-в-perl.html).

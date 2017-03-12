@@ -1,6 +1,10 @@
 # Статистика текста «Harry Potter and the Methods of Rationality»
 
-date_time: 2015-04-11 17:09:45 MSK
+```
+{
+    "date_time_msk" : "2015-04-11 17:09:45"
+}
+```
 
 Есть совершенно замечательная книжка «Harry Potter and the Methods of
 Rationality». Это фанфик, т.е. книжка написанная фанатом по мотивам
