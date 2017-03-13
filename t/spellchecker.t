@@ -140,7 +140,7 @@ sub main_in_test {
     if ($file_name_from_agrv) {
         check_file($file_name_from_agrv);
     } else {
-        my @files = <*_ru.md>;
+        my @files = <*_*.md>;
 
         # TODO - поправить все файлы из этого списка
         my @files_to_ignore = (
