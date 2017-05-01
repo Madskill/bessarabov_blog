@@ -11,7 +11,7 @@
 
 Вот картинка с [википедии](https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Version_timeline):
 
-![Ubuntu releases timeline](https://upload.bessarabov.ru/bessarabov/3cLvstAIM-qTElqPZ86lnCKseT8.png)
+![Ubuntu releases timeline](https://upload.bessarabov.ru/bessarabov/fqtyF30be7TWHUGeCfQHik9UqOc.png)
 
 Вот список важных LTS версий:
 
