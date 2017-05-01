@@ -42,5 +42,5 @@
 Зачем мне повторно получать пароль? Совершенно не за чем, а вот если я не
 получил пароль, то мне его нужно повторно отправить.
 
- [first]: http://upload.bessarabov.ru/bessarabov/jVEp2gAIJB1_-RbJepbuT_28xI8.png
- [second]: http://upload.bessarabov.ru/bessarabov/TCcEH-0LB8IDqQsHe4w53vNNFvY.png
+ [first]: https://upload.bessarabov.ru/bessarabov/jVEp2gAIJB1_-RbJepbuT_28xI8.png
+ [second]: https://upload.bessarabov.ru/bessarabov/TCcEH-0LB8IDqQsHe4w53vNNFvY.png
