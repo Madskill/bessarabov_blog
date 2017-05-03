@@ -186,6 +186,8 @@ ssh
 ssl
 ssls
 subj
+sudo
+sudoers
 tmp
 travis
 ubuntu
