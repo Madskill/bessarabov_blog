@@ -122,7 +122,7 @@ Giger](http://www.imdb.com/name/nm0317592/), и он работал над фи�
 
 Про этот фильм есть вот такая картина:
 
-![Neill Blomkamp Alien artwork](https://upload.bessarabov.ru/bessarabov/XCxDpgA-dek7YDrlpjrsE7r5Kz4.jpg?width=640)
+![Neill Blomkamp Alien artwork](https://upload.bessarabov.ru/bessarabov/XCxDpgA-dek7YDrlpjrsE7r5Kz4.jpg)
 
 Видно что военные таки осуществили свою мечту — сделали из Чужих оружие.
 Интересно как фильмы Нила Бломкампа соответствуют современным модным
