@@ -1,44 +1,41 @@
-# 100 самых популярных Perl библиотек
+# 100 most popular Perl libraries
 
 ```
 {
-    "date_time_msk" : "2016-06-27 13:46:48"
+    "date_time_msk" : "2017-05-28 20:49:40"
 }
 ```
 
-В мире языка программирования Perl есть замечательная штуковина — CPAN
-(это можно произносить как угодно, я предпочитаю говорить "си-пан").
+In the world of Perl programming language there is a great thing called CPAN.
 
-CPAN — это хранилище Perl библиотек. Кто угодно может написать Perl
-библиотеку, загрузить ее на CPAN, а потом остальные люди смогут
-взять эту библиотеку и использовать ее в своем проекте.
+CPAN — is a storage for Perl libraries. Everybody can write Perl library,
+upload it to CPAN and then others would be able to take that library and
+to use it in their project.
 
-К этому хранилищу есть несколько разных веб интерфейсов — все они работают
-с одним и тем же хранилищем CPAN, но показывают его данные немного по разному.
-Я предпочитаю использовать [https://metacpan.org](https://metacpan.org).
+There are several different web interfaces. All of them are working with
+the same CPAN storage, but shows its data in a bit different way.
+I prefer to use [https://metacpan.org](https://metacpan.org).
 
-На Metacpan есть возможность голосовать за библиотеки. Если на странице
-библиотеки кликнуть на символ ++ то система поймет что ты проголосовал
-за эту библиотеку (поставил ей лайк):
+On Metacpan it is possible to vote for the libraries. If you click
+on the ++ symbol on the library page the system will understand that
+you have voted for this library (liked it):
 
 ![How to like on metacpan](https://upload.bessarabov.ru/bessarabov/WalWxJqu5XTW88UgA9jpBcfBHNc.png)
 
-На самом metacpan нет рейтинга библиотек, но у metacpan есть API с помощью
-которого достаточно просто получить топ библиотек по количеству лайков.
+There is no library ratings on Metacpan itself, but it has API that can
+be used to create top libraries by the number of likes.
 
-Я написал [простой скрипт](https://gist.github.com/bessarabov/a280c78781b8e8b0db2bfd3e96d13944),
-который выводит топ 100 Perl библиотек с наибольшим количеством лайков.
-Сам язык Perl лишь на втором месте, а самая популярная
-библиотека — это штука для создания веб проектов
-[Mojolicious](https://metacpan.org/release/Mojolicious).
+I've written [a simple script](https://gist.github.com/bessarabov/a280c78781b8e8b0db2bfd3e96d13944),
+that shows top 100 Perl libraries with the maximum number of likes.
+It is funny, but the Perl language is on the second place. And the
+most popular Perl library is web framework [Mojolicious](https://metacpan.org/release/Mojolicious).
 
-Все хорошие Perl программисты должны знать про популярные библиотеки. Не
-обязательно во всех деталях знать их все (да и вряд ли это возможно), но
-совершенно обязательно знать про каждую популярную библиотеку что она делает,
-какие задачи решает и в каких случаях стоит ее использовать.
+All good Perl programmers must known about popular libraries. It is not
+obligatory to know them in all the details (this is hardly possible),
+but it is worth knowing what is it for and when it should be used.
 
-Итак, вот список на 2017-05-28 (число после тире — это количество лайков
-этой библиотеки):
+So, this is the list generated at 2017-05-28 (the number after the dash is the
+likes count):
 
  1. [Mojolicious](https://metacpan.org/release/Mojolicious) — 332
  2. [perl](https://metacpan.org/release/perl) — 287
