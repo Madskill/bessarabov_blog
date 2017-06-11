@@ -16,6 +16,7 @@ Brin
 CHANGEME
 CHI
 CI
+CMD
 CPAN
 CSRF
 Capitan
@@ -156,6 +157,7 @@ cal
 ci
 com
 cpanminus
+cron
 def
 diff
 digitalocean
@@ -183,9 +185,11 @@ pm
 printf
 projecta
 projectb
+pwd
 qw
 readthedocs
 reddit
+rsyslog
 ru
 screencast
 sprintf
@@ -195,6 +199,7 @@ ssls
 subj
 sudo
 sudoers
+timestamp
 tmp
 travis
 ubuntu
@@ -249,12 +254,17 @@ yml
 дебаггера
 дебаггеру
 дефолтную
+докерного
+докерном
+докерному
 докерный
 докерных
 долбанутый
+заэскейпить
 инфографики
 киновселенной
 коммитов
+конфиг
 ксеноморфы
 лайк
 лайков
