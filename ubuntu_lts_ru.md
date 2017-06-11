@@ -11,7 +11,7 @@
 
 Вот картинка с [википедии](https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Version_timeline):
 
-![Ubuntu releases timeline](https://upload.bessarabov.ru/bessarabov/fqtyF30be7TWHUGeCfQHik9UqOc.png)
+![Ubuntu releases timeline](https://upload.bessarabov.ru/bessarabov/e_PNznsB31PLgos2LrkkpEz9w0Y.png)
 
 Вот список важных LTS версий:
 
@@ -21,9 +21,7 @@
  * trusty 14.04
  * xenial 16.04
 
-Прямо сейчас стоит использовать trusty — ubuntu:14.04 (а точнее 14.04.5), но
-очень скоро (после того как выйдет первый "сервис пак") нужно будет переходить
-на использование xenial.
+Прямо сейчас стоит использовать xenial — ubuntu:16.04
 
 Еще одна полезная ссылочка — описание официальных docker образов ubuntu —
 [https://hub.docker.com/_/ubuntu/](https://hub.docker.com/_/ubuntu/).
