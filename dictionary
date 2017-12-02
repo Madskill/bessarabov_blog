@@ -96,6 +96,7 @@ POE
 PPI
 PSGI
 PathTools
+Perl
 Perlbrew
 Perls
 Pg
@@ -131,6 +132,7 @@ Ultron
 Untitled
 Utils
 VirtualBox
+War
 Weyland
 Wiegers
 XS
@@ -153,6 +155,7 @@ autodie
 backend
 bessarabov
 boot2docker
+bug
 cal
 ci
 com
@@ -181,6 +184,7 @@ macOS
 metacpan
 mysql
 nginx
+odd
 perlbrew
 perldoc
 playbook
@@ -257,6 +261,7 @@ yml
 дебаггера
 дебаггеру
 дефолтную
+дока
 докерного
 докерном
 докерному
@@ -264,6 +269,7 @@ yml
 докерных
 долбанутый
 заэскейпить
+игравший
 инфографики
 киновселенной
 коммитов
@@ -285,6 +291,7 @@ yml
 плейсхолдере
 плейсхолдеры
 предзаказ
+прокидывает
 разработческие
 распарсил
 релизным

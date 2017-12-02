@@ -176,11 +176,16 @@ sub main_in_test {
             'perl_retry_module_ru.md',
             'perl_style_guide_ru.md',
             'perl_unicode_ru.md',
+            'perl_versions_available_in_travis_ci_en.md',
             'permitted_speed_ru.md',
             'python_oneliner_to_start_webserver_ru.md',
             'temporary_work_directory_ru.md',
             'the_magellanic_cloud_quotation_ru.md',
+            'top_100_perl_libraries_en.md',
+            'top_100_perl_libraries_ru.md',
             'view_data_structure_diff_ru.md',
+            'what_is_the_difference_between_add_and_copy_in_dockerfile_en.md',
+            'what_is_the_difference_between_add_and_copy_in_dockerfile_ru.md',
             'why_every_site_should_use_https_ru.md',
             'why_google_dont_promote_driverless_car_in_car_racing_ru.md',
             'wireless_headset_for_iphone_ru.md',
@@ -188,8 +193,11 @@ sub main_in_test {
 
         foreach my $file_name (@files) {
 
-            # speller.yandex.net return 504 for this file
+            # speller.yandex.net return 504
             next if $file_name eq 'camera_to_check_parking_ru.md';
+            next if $file_name eq 'first_attemt_to_use_letsencrypt_ru.md';
+            next if $file_name eq 'how_to_run_cron_in_docker_ru.md';
+            next if $file_name eq 'perl_arrays_ru.md';
 
             next if grep { $_ eq $file_name } @files_to_ignore;
             check_file($file_name);

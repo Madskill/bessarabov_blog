@@ -8,7 +8,7 @@
 
 [Travis CI](https://travis-ci.org/) — это великолепная система для прогона тестов в
 open source проектах. Travis CI умеет работать с языком программирования Perl,
-но к сожалении в [документации](https://docs.travis-ci.com/user/languages/perl/) нет
+но к сожалению в [документации](https://docs.travis-ci.com/user/languages/perl/) нет
 полного списка версий с которыми может работать Travis CI.
 
 Я провел несколько экспериментов и выяснил какие версии Perl поддерживает Travis CI.
