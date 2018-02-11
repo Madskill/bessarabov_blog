@@ -175,6 +175,7 @@ hf
 hostname
 imdb
 jenkins
+jq
 letsencrypt
 libwww
 linux
