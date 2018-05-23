@@ -13,6 +13,6 @@
 В StarCraft 2 эта аббревиатура используется достаточно часто, но можно встретить эту аббревиатуру
 и в других играх, да и вообще в разных чатах и сетевых общениях.
 
-![Фраза "glhf" в StarCraft 2](https://upload.bessarabov.ru/bessarabov/4MVrNIt44juSoRgjVHh58oDYLfY.png)
+![Фраза 'glhf' в StarCraft 2](https://upload.bessarabov.ru/bessarabov/4MVrNIt44juSoRgjVHh58oDYLfY.png)
 
-![Фраза "gl hf" в StarCraft 2](https://upload.bessarabov.ru/bessarabov/8DyX1-oqhm-_wqpzldqPOnbOl7w.png)
+![Фраза 'gl hf' в StarCraft 2](https://upload.bessarabov.ru/bessarabov/8DyX1-oqhm-_wqpzldqPOnbOl7w.png)
