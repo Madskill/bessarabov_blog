@@ -1,10 +1,6 @@
 language: perl
 install: cpanm --notest
-    File::Slurp
-    Test::Differences
     Test::Whitespaces
-    Text::Markdown
-    lib::abs
 script: prove --verbose t/
 perl:
   - "5.22"
