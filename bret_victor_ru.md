@@ -105,4 +105,3 @@
 Это не видео, это подкаст в котором Брет рассказывает про свою карьеру и о своем проекте [https://dynamicland.org/](https://dynamicland.org/).
 
 [https://trackchanges.libsyn.com/computing-is-everywhere-a-conversation-with-bretvictor](https://trackchanges.libsyn.com/computing-is-everywhere-a-conversation-with-bretvictor)
-
