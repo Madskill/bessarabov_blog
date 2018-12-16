@@ -96,3 +96,13 @@
 Длительность видео: 00:56:21
 
 [https://vimeo.com/115154289](https://vimeo.com/115154289)
+
+## Подкаст
+
+Дата выхода: 2018-03-20
+Длительность аудио: 00:36:36
+
+Это не видео, это подкаст в котором Брет рассказывает про свою карьеру и о своем проекте [https://dynamicland.org/](https://dynamicland.org/).
+
+[https://trackchanges.libsyn.com/computing-is-everywhere-a-conversation-with-bretvictor](https://trackchanges.libsyn.com/computing-is-everywhere-a-conversation-with-bretvictor)
+
